@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">Division de Gastos</p>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Nombre de la persona</label>
+                                <input type="text" class="form-control " id="nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Cuanto gastó?</label>
+                                <input type="text" name="" class="form-control" id="gasto">
+                            </div>
+
+                            <button type="button" class="btn btn-primary" onclick="agregarGastos()">Ingresar</button>
+                        </form>
+                        <br>
+                        <ul id="listado">
+
+                        </ul>
+                        <ul id="suma-total">
+
+                        </ul>
+                        <ul id="division-suma-total">
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="javascript.js"></script>
+</body>
+
+</html>
